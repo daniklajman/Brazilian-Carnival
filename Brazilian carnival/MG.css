@@ -1,0 +1,72 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+
+body{
+	background-image: url(img/Frevodancers.jpg);
+	background-repeat: no-repeat;
+	background-size: 2000px;
+}
+
+.container{
+	background-color: white;
+	text-align: justify;
+	padding: 150px;
+	opacity: 0.7;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	padding: 100px; 
+}
+
+h1{
+	text-align: center;
+	font-family:'Candal', sans-serif;
+	font-size: 50px;
+}
+
+p{
+	font-family: 'Catamaran', sans-serif;
+	color: black;
+	opacity: 1.0;
+}
+
+a{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+	margin-left: 850px;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
